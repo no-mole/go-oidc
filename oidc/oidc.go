@@ -114,6 +114,11 @@ type Provider struct {
 	commonRemoteKeySet KeySet
 }
 
+// JwksUrl returns the jwks url of the provider
+func (p *Provider) JwksUrl() string {
+	return p.jwksURL
+}
+
 func (p *Provider) remoteKeySet() KeySet {
 	p.mu.Lock()
 	defer p.mu.Unlock()
