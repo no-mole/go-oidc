@@ -1,4 +1,4 @@
-module github.com/no-mole/go-oidc/v3
+module github.com/no-mole/go-oidc
 
 go 1.19
 
