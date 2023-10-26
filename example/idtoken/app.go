@@ -13,7 +13,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/no-mole/go-oidc/v3/oidc"
+	"github.com/no-mole/go-oidc/oidc"
 	"golang.org/x/net/context"
 	"golang.org/x/oauth2"
 )
