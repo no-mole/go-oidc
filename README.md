@@ -14,7 +14,7 @@ github.com/coreos/go-oidc
 to:
 
 ```
-github.com/coreos/go-oidc/v3/oidc
+github.com/coreos/no-mole/v3/oidc
 ```
 
 And the return type of `NewRemoteKeySet()` is now `*RemoteKeySet` instead of an interface ([#262](https://github.com/coreos/go-oidc/pull/262)).
