@@ -14,8 +14,8 @@ import (
 	"time"
 
 	"github.com/no-mole/go-oidc/oidc"
+	"github.com/no-mole/oauth2"
 	"golang.org/x/net/context"
-	"golang.org/x/oauth2"
 )
 
 var (

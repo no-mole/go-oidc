@@ -21,7 +21,7 @@ And the return type of `NewRemoteKeySet()` is now `*RemoteKeySet` instead of an 
 
 ## OpenID Connect support for Go
 
-This package enables OpenID Connect support for the [golang.org/x/oauth2](https://godoc.org/golang.org/x/oauth2) package.
+This package enables OpenID Connect support for the [github.com/no-mole/oauth2](https://godoc.org/github.com/no-mole/oauth2) package.
 
 ```go
 provider, err := oidc.NewProvider(ctx, "https://accounts.google.com")

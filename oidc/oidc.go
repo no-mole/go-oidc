@@ -1,4 +1,4 @@
-// Package oidc implements OpenID Connect client logic for the golang.org/x/oauth2 package.
+// Package oidc implements OpenID Connect client logic for the github.com/no-mole/oauth2 package.
 package oidc
 
 import (
@@ -17,7 +17,7 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/oauth2"
+	"github.com/no-mole/oauth2"
 )
 
 const (
